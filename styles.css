@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f7c6c7;
+    margin: 0;
+    padding: 0;
+}
+
+.invite-container {
+    background: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff4081;
+}
+
+.birthday-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.details p {
+    font-size: 18px;
+    color: #555;
+}
+
+.birthday-image {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.rsvp-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #000f07;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+#rsvp-response {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}

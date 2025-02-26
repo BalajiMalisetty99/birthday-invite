@@ -1,0 +1,12 @@
+# Ignore system files and caches
+AppData/
+node_modules/
+.vscode/
+.idea/
+*.log
+*.cache
+__pycache__/
+venv/
+NTUSER.DAT*
+OneDrive/
+VirtualBox VMs/

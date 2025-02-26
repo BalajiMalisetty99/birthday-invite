@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invite-container">
+        <h1>🎉 You're Invited! 🎂</h1>
+        <p class="birthday-message">Join us to celebrate <strong>John's Birthday!</strong></p>
+        
+        <div class="details">
+            <p><strong>📅 Date:</strong> March 15, 2025</p>
+            <p><strong>🕒 Time:</strong> 6:00 PM - 10:00 PM</p>
+            <p><strong>📍 Location:</strong> 123 Party Street, Kansas City, MO</p>
+        </div>
+
+        <img src="images/birthday-cake.png" alt="Birthday Cake" class="birthday-image">
+
+        <p class="rsvp-text">Please RSVP below:</p>
+        
+        <form id="rsvp-form">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Confirm Attendance</button>
+        </form>
+        <h3>📝 RSVP List:</h3>
+<ul id="rsvp-list"></ul>
+
+        
+        <p id="rsvp-response"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
